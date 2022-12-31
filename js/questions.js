@@ -33,7 +33,7 @@ function nextQuestion(choiceNumber) {
 }
 function showResultPage() {
   // 결과창 보여주는 페이지
-  location.href = "results.html?mbti=123"; //Query String
+  location.href = `results.html?mbti=${mbti}`; //Query String
 }
 
 choice1El.addEventListener("click", function () {
