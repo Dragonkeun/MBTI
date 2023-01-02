@@ -14,10 +14,10 @@ const lectureImgEl = document.querySelector(".lecture img");
 titleEl.innerHTML = result.title;
 characterEl.src = result.character;
 boxEls.forEach(function (boxEl, index) {
-    boxEl.innerHTML = result.results[index];
-})
+  boxEl.innerHTML = result.results[index];
+});
 jobEls.forEach(function (jobEl, index) {
-    jobEl.innerHTML = result.jobs[index];
-})
+  jobEl.innerHTML = result.jobs[index];
+});
 lectureEl.href = result.lectureUrl;
 lectureImgEl.src = result.lectureImg;
